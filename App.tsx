@@ -13,7 +13,7 @@ export default function App() {
 
   useEffect(() => {
     system.powersync.watch(
-      "SELECT id, track from tracks",
+      "SELECT id, track from tracks limit 5",
       [],
       { onResult: (result) => console.log(result.rows) },
       { signal: abortController.signal }
