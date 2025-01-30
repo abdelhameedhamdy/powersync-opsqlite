@@ -1,0 +1,28 @@
+{
+  "name": "powersync-opsqlite",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.28",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "@azure/core-asynciterator-polyfill": "^1.0.2",
+    "@journeyapps/react-native-quick-sqlite": "^2.4.0",
+    "@op-engineering/op-sqlite": "^11.2.14",
+    "@powersync/op-sqlite": "^0.3.0",
+    "@powersync/react-native": "^1.16.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
